@@ -10,6 +10,7 @@ namespace RectangleChecker.Models
       _length = sideLength;
       _width = sideWidth;
     }
+
     public int GetLength()
     {
       return _length;
@@ -18,6 +19,7 @@ namespace RectangleChecker.Models
     {
       _length = newLength;
     }
+
     public int GetWidth()
     {
       return _width;
@@ -26,10 +28,12 @@ namespace RectangleChecker.Models
     {
       _width = newWidth;
     }
+
     public int GetArea()
     {
       return _length * _width;
     }
+
     public bool IsSquare()
     {
       if (_length == _width)
@@ -42,5 +46,4 @@ namespace RectangleChecker.Models
       }
     }
   }
-
 }
