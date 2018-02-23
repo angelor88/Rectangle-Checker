@@ -25,7 +25,7 @@ namespace RectangleCkecker
 
         public void Configure(IApplicationBuilder app)
         {
-            // app.UseDeveloperExceptionPage(); //Debbugger razor views turn it On/Off
+            app.UseDeveloperExceptionPage(); //Debbugger razor views turn it On/Off
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
